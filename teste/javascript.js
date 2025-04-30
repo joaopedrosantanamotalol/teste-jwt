@@ -10,7 +10,7 @@ botaoEnviar.addEventListener('click', () => {
     };
 
     const json = JSON.stringify(dados);
-    const arquivoJSON = 'banco.json'; // nome do arquivo JSON
+    const arquivoJSON = 'https://6812562489a6973c52628b3b--graceful-horse-aeb232.netlify.app/banco.json'; // nome do arquivo JSON
 
    fetch(arquivoJSON, {
        method: 'POST',
